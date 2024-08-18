@@ -1,0 +1,41 @@
+.swagger-ui .info {
+  text-align: center;
+}
+
+.swagger-ui .title {
+  font-size: 1.8rem !important;
+}
+
+.swagger-ui .version-stamp,
+.swagger-ui .opblock-tag small {
+  font-size: 4px !important;
+  padding: 3px 6px !important;
+}
+
+.swagger-ui-container {
+  margin-top: 3rem;
+  margin-inline: auto;
+  max-width: 50em;
+}
+
+@media screen and (max-width: 40em) {
+  .swagger-ui .info {
+    text-align: left;
+  }
+
+  .swagger-ui .wrapper {
+    padding: 0;
+  }
+
+  .swagger-ui .scheme-container {
+    padding: 20px
+  }
+
+  .swagger-ui-container {
+    margin-inline: 1rem;
+  }
+
+  .swagger-ui .title {
+    font-size: 1.4rem !important;
+  }
+}
