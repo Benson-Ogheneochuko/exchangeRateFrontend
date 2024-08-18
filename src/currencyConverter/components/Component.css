@@ -1,0 +1,24 @@
+input {
+  outline: none;
+  border: none;
+}
+
+select, input {
+  width: 100%;
+  padding: .5rem;
+  border-radius: 7px;
+  border: solid 1px #5843beff;
+  /* background-color: #e8f0feff; */
+}
+.currencyPairContainer{
+  margin-inline: auto;
+}
+@media screen and (max-width: 40em) {
+  .currencyPairContainer {
+    margin-inline: 1rem;
+  }
+  .choosePair {
+    flex-direction: column;
+    gap: 2.5rem
+  }
+}
